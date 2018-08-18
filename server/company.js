@@ -4,7 +4,6 @@ const express = require("express");
 const shortid = require("shortid");
 const hat = require("hat");
 const { omit } = require("ramda");
-require("dotenv").config();
 
 const { hashPassword, comparePasswords, jwt } = require("./promisified-utils");
 const sample = require("./sample-test");

@@ -4,7 +4,6 @@ const express = require("express");
 const hat = require("hat");
 const { omit } = require("ramda");
 const sgMail = require("@sendgrid/mail");
-require("dotenv").config();
 
 const { hashPassword, comparePasswords } = require("./promisified-utils");
 

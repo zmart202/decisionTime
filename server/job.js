@@ -4,7 +4,6 @@ const express = require("express");
 const shortid = require("shortid");
 const hat = require("hat");
 const _ = require("lodash");
-require("dotenv").config();
 
 const { jwt } = require("./promisified-utils");
 
